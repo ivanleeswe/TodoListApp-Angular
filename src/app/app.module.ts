@@ -10,6 +10,7 @@ import { TodoItemComponent } from './components/todo-item/todo-item.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { AddTodoComponent } from './components/add-todo/add-todo.component';
 import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
+import { AboutComponent } from './components/pages/about/about.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
     TodosComponent,
     TodoItemComponent,
     HeaderComponent,
-    AddTodoComponent
+    AddTodoComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
